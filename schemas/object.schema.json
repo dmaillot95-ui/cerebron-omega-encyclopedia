@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CEREBRON Canonical Object",
+  "type": "object",
+  "required": ["id", "type", "version", "status", "provenance", "validity_domain"],
+  "properties": {
+    "id": {"type": "string"},
+    "type": {"type": "string"},
+    "version": {"type": "string"},
+    "status": {"enum": ["CANDIDATE", "TESTING", "VERIFIED_LOCAL", "TRANSFERRED", "CANONICAL", "NARROWED", "DORMANT", "KILLED"]},
+    "provenance": {"type": "array", "items": {"type": "string"}},
+    "validity_domain": {"type": "string"},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "counter_evidence": {"type": "array", "items": {"type": "string"}},
+    "dependencies": {"type": "array", "items": {"type": "string"}},
+    "reopen_conditions": {"type": "array", "items": {"type": "string"}},
+    "maturity": {"type": "string"}
+  }
+}
