@@ -1,0 +1,23 @@
+{
+  "name": "CEREBRON_OMEGA_ENCYCLOPEDIA",
+  "version": "C42.0",
+  "status": "CANONICAL_SHARED_REGISTRY",
+  "root_loop": ["UNDERSTAND", "TRANSFORM", "EVOLVE"],
+  "meta_core": ["SENSE", "UNDERSTAND", "TRANSFORM", "VERIFY", "LEARN", "EVOLVE"],
+  "load_policy": "RETRIEVE_ONLY_RELEVANT_OBJECTS",
+  "promotion_policy": "BENCHMARK+ABLATION+TRANSFER+RED_TEAM+REGRESSION_TEST",
+  "self_certification": false,
+  "provenance_required": true,
+  "paths": {
+    "constitution": "CONSTITUTION.md",
+    "meta_core": "META_CORE.md",
+    "seeds": "seeds/SEEDS.md",
+    "macrograins": "macrograins/MACROGRAINS.md",
+    "disciplines": "disciplines/DISCIPLINES.md",
+    "super_disciplines": "super-disciplines/SUPER_DISCIPLINES.md",
+    "supra": "supra/SUPRA.md",
+    "keys": "keys/KEY_BANK.md",
+    "banks": "banks/BANKS.md",
+    "connection_contract": "registry/FARM_CONNECTION_CONTRACT.md"
+  }
+}
